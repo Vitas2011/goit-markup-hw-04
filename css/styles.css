@@ -110,8 +110,12 @@ color: #2e2f42;
 
 /* Hero Section */
 .hero {
-    background-color: #2e2f42;
+   /* background-color: #2e2f42;*/
     padding: 188px 0 188px;
+    background-image: url(../images/img-11.jpg), url(../images/img-12dark.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
