@@ -91,8 +91,8 @@ color: #2e2f42;
 position: relative;
 }
 
-..nav-studio-index.current::before {
- content: "";
+.nav-studio-index.current::before {
+ content: '';
 
  width: 100%;
  height: 4px;
