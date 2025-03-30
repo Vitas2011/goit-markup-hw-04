@@ -53,12 +53,15 @@ img {
     gap: 40px;
 }
 
+.nav-studio,
+.cont-adres {
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .address-ul {
     display: flex;
     align-items: center;
     gap: 40px;
-
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo {
@@ -80,10 +83,6 @@ img {
 color: #2e2f42;
 }
 
-.nav-list {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .nav-studio-index {
     position: relative;
     display: block;
@@ -93,9 +92,7 @@ color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2e2f42;
-    
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
+}
 
 
 .nav-studio-index::after {
@@ -118,7 +115,7 @@ color: #2e2f42;
 .nav-studio-index:focus::after,
 .nav-studio-index.current::after {
     opacity: 1;
- }
+}
 
 .adres-header {
     font-style: normal;
@@ -143,7 +140,7 @@ color: #2e2f42;
  .adres-contact:focus,
  .nav-studio-index.current {
     color: #404bbf;
- }
+}
 
 
 /* Hero Section */
@@ -413,7 +410,6 @@ padding: 120px 0 120px;
 .footer-div {
     display: flex;
     align-items: baseline;
-    padding-left: 0;
 }
 
 .footer-container {
@@ -435,7 +431,6 @@ padding: 120px 0 120px;
     color: #4d5ae5;
 }
 
-
 .logo-web {
 margin-bottom: 16px;
 }
@@ -443,7 +438,6 @@ margin-bottom: 16px;
 .studio {
     color: #f4f4fd;
 }
-
 
 .parahraf-footer,
 .text-icon {
