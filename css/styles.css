@@ -388,8 +388,12 @@ padding: 120px 0 120px;
 
 /* Footer */
 .footer {
-    padding: 100px 0 100px 156px;
+    padding: 100px 0 100px 0;
     background-color: #2E2F42;
+}
+
+.footer-div {
+ margin-left: 156px;
 }
 
 .footer-list {
