@@ -229,7 +229,6 @@ padding: 120px 0 120px;
  align-items: center;
  justify-content: center;
  height: 112px;
- padding: 24px 100px;
  border: 1px solid #8E8F99;
  border-radius: 4px;
  background: #F4F4FD;
@@ -299,7 +298,6 @@ padding: 120px 0 120px;
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding-bottom: 32px;
 }
 
 .people-icon {
@@ -351,7 +349,6 @@ padding: 120px 0 120px;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    grid-template-columns: repeat(3, 1fr);
     list-style: none;
  }
 
@@ -399,8 +396,20 @@ padding: 120px 0 120px;
 
  .portfolio-app {
     margin-bottom: 8px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-size: 20px;
+    font-weight: 500;
+    color: #2E2F42;
  }
-    
+ 
+ .text-app {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+ }
 
 /* Footer */
 .footer {
@@ -411,7 +420,6 @@ padding: 120px 0 120px;
 .footer-div {
     display: flex;
     align-items: baseline;
-    padding: 0;
 }
 
 .footer-container {
