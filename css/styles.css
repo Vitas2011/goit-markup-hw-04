@@ -392,9 +392,6 @@ padding: 120px 0 120px;
     background-color: #2E2F42;
 }
 
-/*.footer-div {
- margin-left: 156px;
-}*/
 
 .footer-list {
     display: flex;
@@ -410,6 +407,7 @@ padding: 120px 0 120px;
     text-transform: uppercase;
     color: #4d5ae5;
 }
+
 
 .logo-web {
 margin-bottom: 16px;
