@@ -392,7 +392,10 @@ padding: 120px 0 120px;
     background-color: #2E2F42;
 }
 
-
+.footer-div {
+    /*margin-left: 0;*/
+    padding-left: 0;
+}
 
 .footer-list {
     display: flex;
